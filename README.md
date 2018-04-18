@@ -6,10 +6,10 @@ _Written in PyTorch_
 About
 --------
 A set of self-contained Jupyter notebooks aimed at providing quick and easy-to-modify baselines. Specifically:
- * [mnist-np]() a 3-layer dense relu network implemented entirely in NumPy (test acc: 96.8%)
- * [mnist-fc]() a 3-layer dense relu network implemented entirely in NumPy (test acc: 96.8%)
- * [mnist-cnn]() a 3-layer cnn relu network implemented entirely in NumPy (test acc: 98.7%)
- * [mnist-seq]() a 3-layer dense recurrent (GRU) network implemented on a sequentual MNIST task
+ * [mnist-np](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-np.ipynb) a 3-layer dense relu network implemented entirely in NumPy (test acc: 96.8%)
+ * [mnist-fc](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-fc.ipynb) a 3-layer dense relu network implemented entirely in NumPy (test acc: 96.8%)
+ * [mnist-cnn](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-cnn.ipynb) a 3-layer cnn relu network implemented entirely in NumPy (test acc: 98.7%)
+ * [mnist-seq](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-seq.ipynb) a 3-layer dense recurrent (GRU) network implemented on a sequentual MNIST task
 
 I only trained these models on 1-3 epochs of MNIST, so they could probably do a little better. I wanted these baselines to be:
  * something I could train in ~2 minutes on my laptop
@@ -49,4 +49,8 @@ Convolutional classifier (PyTorch)
 Sequential Model (PyTorch)
 
 ![mnist-seq-stats.png](static/mnist-seq-stats.png)
+
+Visualizing sequential Model (PyTorch)
+
+![mnist-seq-example.png](static/mnist-seq-example.png)
 
