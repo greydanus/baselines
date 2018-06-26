@@ -8,9 +8,9 @@ About
 A set of self-contained Jupyter notebooks aimed at providing quick and easy-to-modify baselines. Specifically:
  * [mnist-np](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-np.ipynb) a 3-layer dense relu network implemented entirely in NumPy (test acc: 96.8%)
  	* [run the code on Colab](https://drive.google.com/file/d/12xF4Dc95F-25pRpi_VMmluSPsthGh2-W/view?usp=sharing)
- * [mnist-fc](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-fc.ipynb) a 3-layer dense relu network implemented entirely in NumPy (test acc: 96.8%)
+ * [mnist-fc](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-fc.ipynb) a 3-layer dense relu network implemented in PyTorch (test acc: 96.8%)
  	* [run the code on Colab](https://drive.google.com/file/d/1z2duhn5W4MCx6OeDe5-3DGDegxSurPqJ/view?usp=sharing)
- * [mnist-cnn](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-cnn.ipynb) a 3-layer cnn relu network implemented entirely in NumPy (test acc: 98.7%)
+ * [mnist-cnn](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-cnn.ipynb) a 3-layer cnn relu network implemented in PyTorch (test acc: 98.7%)
   	* [run the code on Colab](https://drive.google.com/file/d/1KElrCHFesn1sRwP4RN-h409b1EqUNd2z/view?usp=sharing)
  * [mnist-seq](https://nbviewer.jupyter.org/github/greydanus/baselines/blob/master/mnist-seq.ipynb) a 3-layer dense recurrent (GRU) network implemented on a sequentual MNIST task
   	* [run the code on Colab](https://drive.google.com/file/d/19MGrJLitZ_o0i3VRhX9_KOIECAmHNKlf/view?usp=sharing)
